@@ -8,16 +8,16 @@
     /*centers items on the line (the x-axis by default)*/
     align-items: center;
     /*centers items on the cross-axis (y by default)*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .text1 {
     font-size: 108px;
-    font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 255, 166);
     font-weight: bold;
     text-shadow: 0 0px 10px white;
     transition: .7s ease;
-    padding: 25px;
+    padding: 35px;
 }
 
 .text1:hover {
@@ -27,8 +27,9 @@
 }
 
 .text2 {
-    color: rgb(0, 255, 166);
+    color: skyblue;
+    font-size: 108px;
     font-weight: bold;
     text-shadow: 0 0px 10px white;
-    transition: .7s ease;
+    transition: .7s ease-in-out;
 }
