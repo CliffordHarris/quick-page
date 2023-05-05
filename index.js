@@ -1,12 +1,13 @@
 "use strict";
+let meh = "meh...", wow = "Wow!!!";
 let textId = document.getElementById("text");
 function changeText(start){
     let text = "";
-    if (start === "Meh...") {
-        text = start = "Wow!!!";
+    if (start === meh) {
+        text = start = wow;
         changeClass("text1");
     } else {
-        text = start = "Meh...";
+        text = start = meh;
         changeClass("text1");
     }
     textId.innerHTML = text;
