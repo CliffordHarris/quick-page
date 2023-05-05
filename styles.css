@@ -1,3 +1,7 @@
+body {
+    background-color: #121212;
+}
+
 .centered {
     /* overflow: hidden; */
     position: absolute;
@@ -17,7 +21,7 @@
     font-weight: bold;
     text-shadow: 0 0px 10px white;
     transition: .7s ease;
-    padding: 35px;
+    padding: 25px;
 }
 
 .text1:hover {
