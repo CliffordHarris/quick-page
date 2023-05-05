@@ -8,7 +8,7 @@ function changeText(start){
         changeClass("text1");
     } else {
         text = start = meh;
-        changeClass("text1");
+        changeClass("text2");
     }
     textId.innerHTML = text;
 }
