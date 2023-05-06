@@ -1,7 +1,8 @@
 "use strict";
 let meh = "meh...", wow = "Wow!!!";
+let start = meh;
 let textId = document.getElementById("text");
-function changeText(start){
+function changeText(){
     let text = "";
     if (start === meh) {
         text = start = wow;
